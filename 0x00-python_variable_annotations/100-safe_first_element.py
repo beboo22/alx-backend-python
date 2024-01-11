@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """ xddd dddd ddddd ddd"""
-from typing import Mapping, MutableMapping, Sequence, Iterable, List, Tuple, Any
+from typing import Mapping, MutableMapping, Sequence, Iterable, List,
+Tuple, Any, Union
 
 
 def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
