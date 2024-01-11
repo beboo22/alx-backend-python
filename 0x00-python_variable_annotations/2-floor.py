@@ -1,14 +1,8 @@
 #!/usr/bin/env python3
+'''Basic annotations for variables.'''
 import math
 
 
-'''
-    Basic annotations for variables.
-'''
-
-
 def floor(n: float) -> int:
-    '''
-        Returns the floor of a float.
-    '''
+    '''Returns the floor of a float.'''
     return math.floor(n)
