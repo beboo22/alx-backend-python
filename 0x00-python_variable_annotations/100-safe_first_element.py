@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """ xddd dddd ddddd ddd"""
-from typing import Mapping, MutableMapping, Sequence, Iterable, List,
-Tuple, Any, Union
+from typing import  Sequence, List, Tuple, Any, Union
 
 
 # The types of the elements of the input are not know
