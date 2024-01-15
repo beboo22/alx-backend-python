@@ -18,4 +18,4 @@ async def wait_n(n: int, max_delay: int = 10) -> List[float]:
     for res in list_val:
         data.append(await res)
 
-    return data
+    return sorted(data)
