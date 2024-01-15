@@ -5,6 +5,7 @@ from typing import List
 from random import uniform
 task_wait_random = __import__('3-tasks').task_wait_random
 
+
 async def task_wait_n(n: int, max_delay: int = 10) -> List[float]:
     """dsffdsfsdddsdsdsf"""
     list_val = []
@@ -14,9 +15,6 @@ async def task_wait_n(n: int, max_delay: int = 10) -> List[float]:
         task = task_wait_random(max_delay)
         list_val.append(task)
         await task
-    
     for res in list_val:
         data.append(res.result())
-
-
     return sorted(data)
