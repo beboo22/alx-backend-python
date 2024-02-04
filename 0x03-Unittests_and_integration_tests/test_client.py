@@ -13,6 +13,7 @@ from utils import memoize
 class TestGithubOrgClient(unittest.TestCase):
     @parameterized.expand([('google'), ('abc')])
     patch('client.get_json')
+
     def test_org(self, pr, mock):
         servise = GithubOrgClient(pr)
         servise.org(pr)
